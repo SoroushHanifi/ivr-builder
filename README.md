@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # IVR Builder
 
 سرویس REST API برای ساخت فلوهای IVR — پروژه مستقل که از دیتابیس SQLite مشترک با PBX استفاده می‌کند.
@@ -197,3 +198,6 @@ DATABASE_PATH=../sip-pbx-server/data/sip_users.db \
 IVR_BIND_ADDR=0.0.0.0:8090 \
 cargo run
 ```
+# flow-ivr-api
+Rust Pbx
+>>>>>>> 1b60624adf6ee3dce20260ace33af7cfcaf6387c
