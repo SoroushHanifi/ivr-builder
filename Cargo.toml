@@ -8,11 +8,12 @@ name = "ivr-builder"
 path = "src/main.rs"
 
 [dependencies]
-axum          = { version = "0.7" }
-tokio         = { version = "1",   features = ["full"] }
-serde         = { version = "1",   features = ["derive"] }
-serde_json    = "1"
-sqlx          = { version = "0.7", features = ["sqlite", "runtime-tokio-native-tls"] }
-uuid          = { version = "1",   features = ["v4"] }
-chrono        = "0.4"
-tower-http    = { version = "0.5", features = ["cors"] }
+axum       = { version = "0.7" }
+tokio      = { version = "1",   features = ["full"] }
+serde      = { version = "1",   features = ["derive"] }
+serde_json = "1"
+sqlx       = { version = "0.7", features = ["sqlite", "runtime-tokio-native-tls"] }
+uuid       = { version = "1",   features = ["v4"] }
+chrono     = "0.4"
+tower-http = { version = "0.5", features = ["cors"] }
+dotenvy    = "0.15"
